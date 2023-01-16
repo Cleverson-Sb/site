@@ -34,7 +34,7 @@ body{
             }
 
                 div#texto{
-                    background: rgb(233, 127, 22);
+                    
                     display: inline-block;              
                     width: 40%;
                 }
@@ -43,7 +43,6 @@ body{
                         margin-top: 100px;
                         margin-left: 20%;
                         color: white;
-                        background: black;
                         width: 95%;
                         max-width: 100px;
                         height: 100%;
@@ -51,7 +50,6 @@ body{
                     }
 
                     div#titulo{
-                        background: black;
                         color: white;
                         width: 100%;
                         max-width: 300px;
@@ -75,7 +73,7 @@ body{
                     margin-right: 2.5%;
                 }
             div#secao2{
-                background: lightcyan;
+                background: black;
             }
 
                 div#conteudo2{
@@ -92,13 +90,11 @@ body{
                 }
 
                 div#texto2{
-                    background: white;
                     display: inline-block;              
                     width: 40%;
                 }
 
                     div#titulo2{
-                        background: black;
                         color: white;
                         font-size: 1.5em;
                         width: 100%;
@@ -114,7 +110,6 @@ body{
                         margin-top: 30px;
                         margin-left: 20%;
                         color: white;
-                        background: black;
                         width: 100%;
                         max-width: 364px;
                         height: 100%;
@@ -122,7 +117,6 @@ body{
                     }
 
                     div#plista{
-                        background: black;
                         color: white;
                         font-size: 1.1em;
                         width: 100%;
@@ -131,7 +125,7 @@ body{
                         max-height: 250px;
                         margin-top: 25px;
                         margin-bottom: 0px;
-                        margin-left: 5%;
+                        margin-left: 6%;
                     }
                         #lista2{
                             display: flex;
@@ -140,10 +134,92 @@ body{
                         }
 
                             .intens2{
-                                color: #B14900;
+                                color: white;
                                 flex: 1 1 150px;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
                             }
+#secao3{
+    background: #9C9880;
+}
+    
+    div.conteudo3{
+        background-image: url(imagens/pexels-ron-lach-8817852.jpg);
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-position: center center;
+        background-size: cover;
+        float: left;
+        background-color: lightgreen;
+        width: 100%;
+        max-width: 488px;
+        height: 100%;
+        max-height: 614px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    #texto3{
+        display: inline-block;              
+        width: 60%;
+    }
 
+        #titulo3{
+            color: white;
+            font-size: 1.5em;
+            width: 50%;
+            height: 200px;
+            margin-top: 10%;
+            margin-left: 25px;
+        }
+
+        #subtitulo3{
+            text-align: justify;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-left: 25px;
+            color: white;
+            width: 80%;
+            height: 100%
+        }
+
+#secao4{
+    background: #B14900;
+}
+    
+    div.conteudo4{
+        background-image: url(imagens/pexels-ron-lach-8817852.jpg);
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-position: center center;
+        background-size: cover;
+        background-color: lightgreen;
+        width: 100%;
+        max-width: 385px;
+        height: 100%;
+        max-height: 392px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    #texto4{
+        background-color: aqua;
+        display: inline-block;              
+        width: 60%;
+        height: 80%;
+    }
+
+        #titulo4{
+            color: white;
+            font-size: 1.5em;
+            width: 50%;
+            height: 200px;
+            margin-top: 10%;
+            margin-left: 25px;
+        }
+
+    #qualidades{
+        background: #9C9880;
+        float: right;
+    }
