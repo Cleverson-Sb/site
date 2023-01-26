@@ -48,7 +48,6 @@ body{
         div.secao{
             height: 760px;
             width: 100%;
-            background: limegreen;
         }
 
             div#secao1{
@@ -89,22 +88,10 @@ body{
                     margin-top: 70px;
                     width: min(100% - 30px, 400px);
                     height: 660px;
+                    margin-right: 5%;
                 }
 
-                @media screen and (max-width: 1251px){
-                    div#conteudo{
-                        background-image: url(imagens/logo\ comercial\ castro\ white.png);
-                        background-repeat: no-repeat;
-                        background-attachment: local;
-                        background-position: center center;
-                        background-size: contain;
-                        margin-top: 70px;
-                        width: min(100% - 30px, 400px);
-                        float: right;
-                        height: 660px;
-                        margin-right: 5%;
-                    }
-                }
+
                 @media screen and (max-width: 912px){
                     div#conteudo{
                         background-image: url(imagens/logo\ comercial\ castro\ white.png);
@@ -152,6 +139,7 @@ body{
                         margin-bottom: 10px;
                         margin-left: 20%;
                     }
+                }
 
 div#secao2{
     background: black;
@@ -164,7 +152,6 @@ div#secao2{
         background-position: center center;
         background-size: cover;
         float: right;
-        background-color: lightgreen;
         width: 50%;
         height: 660px;
         margin-top: 0px;
