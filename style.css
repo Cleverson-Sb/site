@@ -103,7 +103,7 @@ body{
                         width: min(100% - 30px, 300px);
                         height: 400px;
                         margin-top: 188PX;
-                        margin-right: 5%;
+                        margin-right: 25%;
                     }
 
                     div#titulo{
@@ -128,7 +128,7 @@ body{
                         width: min(100% - 30px, 300px);
                         height: 100px;
                         margin-top: 10%;
-                        margin-right: 25%;
+                        margin-right: 50%;
                     }
                     div#titulo{
                         font-size: 1.2em;
@@ -223,8 +223,8 @@ div#secao2{
         background-attachment: local;
         background-position: center center;
         background-size: cover;
+        display: inline;
         float: left;
-        filter: drop-shadow(12px 13px 20px rgba(0, 0, 0, 0.623 ));
         width: 100%;
         max-width: 488px;
         height: 100%;
@@ -265,7 +265,6 @@ div#secao2{
         background-attachment: local;
         background-position: center center;
         background-size: contain; 
-        filter: drop-shadow(12px 13px 20px rgba(0, 0, 0, 0.623));
         float: left;
         width: 100%;
         max-width: 488px;
@@ -310,7 +309,7 @@ div#secao2{
         }
 
     #qualidades{
-        font-size: 1.2em;
+        font-size: 1em;
         float: right;
         height: 100%;
         max-height: 200px;
@@ -321,27 +320,7 @@ div#secao2{
 
 @media screen and (max-width: 1671px){
     #qualidades{
-        font-size: 1.2em;
-        float: right;
-        height: 100%;
-        max-height: 200px;
-        margin-right: 10%;
-        width: min(100% - 30px, 300px);
-    }
-
-    #texto4{
-        display: inline-block;
-        width: 100%;              
-        max-width: 500px;
-        height: 100%;
-        margin-left: 10%;
-    }
-
-}
-
-@media screen and (max-width: 1671px){
-    #qualidades{
-        font-size: 1.2em;
+        font-size: 1em;
         float: right;
         height: 100%;
         max-height: 200px;
