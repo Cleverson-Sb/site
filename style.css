@@ -166,7 +166,7 @@ body{
                     }
                 }
 
-                @media screen and (max-width: 540px){
+                @media screen and (max-width: 541px){
 
                     div#conteudo{
                         background-image: url(imagens/logo\ comercial\ castro\ white.png);
@@ -179,6 +179,7 @@ body{
                         margin-top: 10%;
                         margin-right: 25%;
                     }
+
                     div#titulo{
                         font-size: 1.2em;
                         color: white;
@@ -186,6 +187,11 @@ body{
                         height: 130px;
                         margin-top: 100px;
                         margin-bottom: 10px;
+                    }
+
+                    div#texto{
+                        display: inline-block;              
+                        width: max(50% - 30px, 300px);
                         margin-left: 15%;
                     }
                 }
