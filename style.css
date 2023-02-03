@@ -96,15 +96,14 @@ div#secao2{
         background-position: center center;
         background-size: cover;
         float: right;
-        width: 50%;
-        height: 660px;
-        margin-top: 0px;
+        width: 40vw;
+        height: 700px;
+        margin-top: -31.50px;
     }
 
     div#texto2{
         display: inline-block;              
-        width: 40%;
-        margin-left: 35px;
+        width: 50vw;
     }
 
         div#titulo2{
