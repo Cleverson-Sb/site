@@ -54,6 +54,7 @@ body{
 
             div#secao1{
                 background-color: #B14900;
+                padding: 0rem 3rem;
             }
 
                 div#texto{
@@ -61,16 +62,18 @@ body{
                     width: 40vw;
                     height: 100%;
                     max-height: 700px;
-                    margin-top: 300px;
+                    margin-top: 10px;
                 }
 
                     div#subtitulo{
                         color: white;
+                        margin-top: 90px;
                     }
 
                     div#titulo{
                         font-size: 1.35em;
                         color: white;
+                        margin-top: 250px;
                     }
 
                 div#conteudo{
@@ -98,18 +101,20 @@ div#secao2{
         float: right;
         width: 40vw;
         height: 700px;
+        padding: 0rem 0rem;
     }
 
     div#texto2{
         display: inline-block;              
-        width: 50vw;
+        width: 40vw;
+        padding: 0rem 3rem;
     }
 
         div#titulo2{
             color: white;
             font-size: 1.5em;
             width: 50vw;
-            height: 50px;
+            height: 40px;
             margin-top: 250px;
             margin-bottom: 10px;
         }
@@ -119,7 +124,7 @@ div#secao2{
             text-align: justify;
             margin-top: 30px;
             color: white;
-            width: 50vw;
+            width: 40vw;
             height: 100%;
             max-height: 145px;
         }
@@ -127,7 +132,7 @@ div#secao2{
         div#plista{
             color: white;
             font-size: 1.04em;
-            width: 50vw;
+            width: 40vw;
             height: 100%;
             max-height: 250px;
             margin-top: 25px;
@@ -137,7 +142,7 @@ div#secao2{
                 color: white;
                 display: grid;
                 grid: 1rem;
-                grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+                grid-template-columns: repeat(auto-fit,minmax(180px, 1fr));
                 list-style-type: none;
                 padding: 0;
             }
@@ -147,43 +152,41 @@ div#secao2{
 }
     
     div.conteudo3{
-        background-image: url(imagens/whatsapp.jpg);
+        background-image: url(imagens/logo-whatsapp-preta-com-nome-1024.png);
         background-repeat: no-repeat;
         background-attachment: local;
         background-position: center center;
-        background-size: cover;
+        background-size: contain;
         display: inline;
         float: left;
-        width: 100%;
-        max-width: 488px;
-        height: 100%;
-        max-height: 614px;
-        margin-top: 5%;
-        margin-left: 20%;
+        width: 40vw;
+        height: 700px;
+        padding: 0rem 2rem;
+        margin-top: 95px;
     }
     
     #texto3{
+        margin-top: 0px;
         display: inline-block;              
-        width: 40%;
+        width: 40vw;
+        padding: 0rem 1rem 0rem 0rem;
     }
 
         #titulo3{
             color: white;
-            font-size: 1.5em;
-            width: 100%;
-            max-width: 350px;
+            font-size: 1.24em;
+            width: 40vw;
             height: 200px;
-            margin-top: 10%;
-            margin-left: 25px;
+            margin-top: 80px;
+            text-align: center;
         }
 
         #subtitulo3{
             text-align: justify;
             font-size: 1.3em;
-            margin-top: 25px;
-            margin-left: 25px;
+            margin-top: 15px;
             color: white;
-            width: 80%;
+            width: 40vw;
             height: 100%
         }
 
