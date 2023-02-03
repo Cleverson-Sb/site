@@ -114,16 +114,14 @@ div#secao2{
             height: 50px;
             margin-top: 250px;
             margin-bottom: 10px;
-            margin-left: 20%;
         }
 
         div#subtitulo2{
             font-size: 1.3em;
+            text-align: justify;
             margin-top: 30px;
-            margin-left: 20%;
             color: white;
             width: 100%;
-            max-width: 364px;
             height: 100%;
             max-height: 145px;
         }
@@ -136,7 +134,6 @@ div#secao2{
             max-height: 250px;
             margin-top: 25px;
             margin-bottom: 0px;
-            margin-left: 6%;
         }
             #lista2{
                 color: white;
