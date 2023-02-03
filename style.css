@@ -44,12 +44,12 @@ body{
 
     div#corpo{
         height: 100%;
+        width: 100vw;
     }
 
         div.secao{
             height: 760px;
-            width: 100vw;
-            padding: 2rem 4rem;
+            padding: 0rem 0rem;
         }
 
             div#secao1{
