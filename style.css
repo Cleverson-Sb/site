@@ -57,6 +57,7 @@ body{
                 div#texto{
                     display: inline-block;              
                     width: max(50% - 30px, 300px);
+                    margin-left: 20px;
                 }
 
                     div#subtitulo{
@@ -91,8 +92,7 @@ body{
                     margin-right: 5%;
                 }
 
-
-                @media screen and (max-width: 912px){
+                @media screen and (max-width: 868px){
                     div#conteudo{
                         background-image: url(imagens/logo\ comercial\ castro\ white.png);
                         background-repeat: no-repeat;
@@ -102,14 +102,39 @@ body{
                         float: right;
                         width: min(100% - 30px, 300px);
                         height: 400px;
-                        margin-top: 188PX;
-                        margin-right: 25%;
+                        margin-top: 160PX;
+                        margin-right: 50px;
                     }
 
                     div#titulo{
                         font-size: 1.2em;
                         color: white;
-                        width: max(50% - 30px, 200px);
+                        width: max(50% - 30px, 165px);
+                        height: 440px;
+                        margin-top: 140px;
+                        margin-bottom: 10px;
+                        margin-left: 20%;
+                    }
+                }
+
+                @media screen and (max-width: 729px){
+                    div#conteudo{
+                        background-image: url(imagens/logo\ comercial\ castro\ white.png);
+                        background-repeat: no-repeat;
+                        background-attachment: local;
+                        background-position: center center;
+                        background-size: contain;
+                        float: right;
+                        width: min(100% - 30px, 250px);
+                        height: 400px;
+                        margin-top: 160PX;
+                        margin-right: 50px;
+                    }
+
+                    div#titulo{
+                        font-size: 1.2em;
+                        color: white;
+                        width: max(50% - 30px, 165px);
                         height: 440px;
                         margin-top: 140px;
                         margin-bottom: 10px;
@@ -160,6 +185,7 @@ div#secao2{
     div#texto2{
         display: inline-block;              
         width: 40%;
+        margin-left: 35px;
     }
 
         div#titulo2{
@@ -203,7 +229,7 @@ div#secao2{
                 list-style-type: none;
             }
 
-            @media screen and (max-width: 1100px){
+            @media screen and (max-width: 728px){
                 #lista2{
                     color: white;
                     display: grid;
