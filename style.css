@@ -160,9 +160,9 @@ div#secao2{
         display: inline;
         float: left;
         width: 40vw;
-        height: 700px;
+        height: 350px;
         padding: 0rem 2rem;
-        margin-top: 95px;
+        margin-top: 300px;
     }
     
     #texto3{
@@ -177,7 +177,7 @@ div#secao2{
             font-size: 1.24em;
             width: 40vw;
             height: 200px;
-            margin-top: 80px;
+            margin-top: 100px;
             text-align: center;
         }
 
@@ -200,35 +200,32 @@ div#secao2{
         background-repeat: no-repeat;
         background-attachment: local;
         background-position: center center;
-        background-size: cover;
-        width: 100%;
-        max-width: 385px;
-        height: 100%;
-        max-height: 392px;
-        margin-top: 20PX;
+        background-size: contain;
+        width: 40vw;
+        height: 300px;
     }
     
     #texto4{
-        display: inline-block;
-        width: 100%;              
-        max-width: 500px;
-        height: 100%;
-        margin-left: 20%;
+        width: 40vw;
+        height: 700px;
+        padding: 0rem 0rem 0rem 0rem;
+        margin-top: 25px;
+        margin-left: 50px;
+        display: inline-block;          
     }
 
         #titulo4{
+            width: 40vw;
             color: white;
             font-size: 1.5em;
-            height: 120px;
-            margin-top: 100px;
         }
 
-    #qualidades{
-        font-size: 1em;
+        #qualidades{
+        color:#B14900;
+        font-size: 1.2em;
+        height: 350px;
+        width: 40vw;
         float: right;
-        height: 100%;
-        max-height: 200px;
-        margin-right: 20%;
-        width: min(100% - 30px, 300px);
-        margin-top: 250px;   
+        margin-top: 250px;
+        margin-right: 25px;
     }
