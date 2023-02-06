@@ -273,3 +273,55 @@ div#secao2{
         margin-top: 250px;
         margin-right: 0;
     }
+
+    @media only screen and (min-width: 425px) and (max-width: 768px){
+        
+        nav{
+            font-size: 1em;
+        }
+
+        div#texto{
+            display: inline-block;           
+            width: 100vw;
+            margin-top: 10px;
+        }
+
+        div#conteudo{
+            float: none;
+            margin: 100px auto;
+            width: 60vw;
+            height: 150px;
+        }
+
+        div#titulo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.9vw;
+            color: white;
+            margin-top: 150px;
+        }
+
+        #texto4{
+            width: 50vw;
+        }
+
+        #titulo4{
+            font-size: 3vw;
+        }
+
+        #qualidades{
+            font-size: 3vw !important;
+        }
+
+        #subtitulo3{
+            font-size: 3vw;
+        }
+    
+    }
+
+    @media screen and (max-width: 425px){
+        nav{
+            font-size: 1em;
+        }
+    }
