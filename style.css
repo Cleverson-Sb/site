@@ -54,10 +54,11 @@ body{
             div#secao1{
                 background-color: #B14900;
                 padding: 0rem 0rem;
+                position: relative;
             }
 
                 div#texto{
-                    display: inline-block;              
+                    display: inline-block;           
                     width: 40vw;
                     height: 100%;
                     max-height: 700px;
@@ -65,11 +66,17 @@ body{
                 }
 
                     div#subtitulo{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                         color: white;
                         margin-top: 90px;
                     }
 
                     div#titulo{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                         font-size: 1.35em;
                         color: white;
                         margin-top: 250px;
@@ -81,10 +88,16 @@ body{
                     background-attachment: local;
                     background-position: center center;
                     background-size: contain;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translate( 0px, -50px);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     float: right;
                     width: 40vw;
                     height: 150px;
-                    margin-top: 350px;
                 }
                     
 div#secao2{
