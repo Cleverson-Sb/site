@@ -196,13 +196,14 @@ div#secao2{
             text-align: justify;
             font-size: 1.3em;
             margin-top: 15px;
+            width: 100%;
             color: white;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        #secao3 span{
+        #secao3 p{
             max-width: 500px;
         }
 
