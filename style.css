@@ -225,20 +225,34 @@ div#secao2{
     }
     
     #texto4{
-        width: 45vw;
-        height: 600px;
+        width: 50vw;
+        height: 700px;
         padding: 0rem 0rem 0rem 0rem;
-        margin-top: 150px;
+        margin-top: 30px;
         margin-left: 0;
-        display: inline-block;          
+        display: inline-block;
     }
 
         #titulo4{
+            margin-top: 150px;
             color: white;
             font-size: 1.5em;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+            
+            #secao4 a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #secao4 a:hover{
+                padding: 15px;
+                border-radius: 10px;
+                color: #B14900;
+                background-color: #473bf0;
         }
 
         #qualidades{
