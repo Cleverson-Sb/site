@@ -283,7 +283,7 @@ div#secao2{
         div#texto{
             display: inline-block;           
             width: 100vw;
-            margin-top: 10px;
+            margin-top: 60px;
         }
 
         div#conteudo{
@@ -297,7 +297,7 @@ div#secao2{
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.9vw;
+            font-size: 2.3vw;
             color: white;
             margin-top: 150px;
         }
