@@ -11,7 +11,8 @@ body{
         background: black;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.301);
         width: 100vw;
-        height: 50px;
+        height: 100%;
+        max-height: 70px;
     }
 
         nav{
@@ -29,7 +30,7 @@ body{
          
             li{
                 color: white;
-                flex: 1 1 150px;
+                flex: 2 1 150px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -118,6 +119,7 @@ div#secao2{
         div#titulo2{
             color: white;
             font-size: 1.5em;
+            margin-top: 150px;
             margin-bottom: 10px;
             display: flex;
             align-items: flex-start;
@@ -135,7 +137,7 @@ div#secao2{
         }
 
         div#plista{
-            display: flex;
+            display: block;
             align-items: center;
             justify-content: center;
             color: white;
@@ -145,12 +147,16 @@ div#secao2{
         }
             #lista2{
                 color: white;
-                flex-wrap: wrap;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             main li{
                 flex: 1 1 150px;
                 display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
 #secao3{
