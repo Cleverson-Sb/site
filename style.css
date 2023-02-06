@@ -6,6 +6,9 @@ body{
     background: black;
     font-family: 'Arial Narrow Bold', sans-serif;
 }
+html{
+    background: black;
+}
 
     div#menu{
         position: fixed;
