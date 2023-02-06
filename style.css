@@ -21,7 +21,7 @@ html{
 
         nav{
             color: white;
-            font-size: 1.1em;
+            font-size: 1.5em;
             width: 100vw;
             margin-bottom: 10px;
         }
@@ -52,7 +52,7 @@ html{
 
         div.secao{            
             width: 100%;
-            height: 760px;
+            min-height: 760px;
             padding: 0rem 0rem;
         }
 
@@ -73,13 +73,14 @@ html{
                         justify-content: center;
                         color: white;
                         margin-top: 90px;
+                        font-size: 2.5vw;
                     }
 
                     div#titulo{
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        font-size: 1.35em;
+                        font-size: 2.9vw;
                         color: white;
                         margin-top: 250px;
                     }
@@ -121,7 +122,7 @@ div#secao2{
 
         div#titulo2{
             color: white;
-            font-size: 1.5em;
+            font-size: 2.5vw;
             margin-top: 150px;
             margin-bottom: 10px;
             display: flex;
@@ -133,7 +134,7 @@ div#secao2{
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.3em;
+            font-size: 2vw;
             text-align: justify;
             margin-top: 30px;
             color: white;
@@ -144,7 +145,7 @@ div#secao2{
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 1.04em;
+            font-size: 2vw;
             margin-top: 25px;
             padding: 0;
         }
@@ -188,7 +189,7 @@ div#secao2{
 
         #titulo3{
             color: white;
-            font-size: 1.24em;
+            font-size: 2.1vw;
             margin-top: 100px;
             text-align: justify;
             display: flex;
@@ -198,7 +199,7 @@ div#secao2{
 
         #subtitulo3{
             text-align: justify;
-            font-size: 2rem;
+            font-size: 2vw;
             margin-top: 25px;
             width: 100%;
             color: white;
@@ -241,7 +242,7 @@ div#secao2{
         #titulo4{
             margin-top: 150px;
             color: white;
-            font-size: 1.5em;
+            font-size: 2.1vw;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -262,7 +263,7 @@ div#secao2{
 
         #qualidades{
         color:#B14900;
-        font-size: 1.8rem;
+        font-size: 2vw;
         width: 48vw;
         display: flex;
         justify-content: center;
