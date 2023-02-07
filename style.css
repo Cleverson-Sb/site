@@ -395,17 +395,74 @@ div.conteudo3{
         align-items: center;
     }
 
-        #secao4 #texto4{
-            width: 50vw;
+    #secao4 #texto4{
+        width: 80vw;
+        margin: auto;
+    }
+
+        #secao4 #titulo4{
+            font-size: 3vw;
         }
 
-            #secao4 #titulo4{
-                font-size: 3vw;
-            }
+        #secao4 #qualidades{
+            font-size: 3.5vw !important;
+        }
 
-            #secao4 #qualidades{
-                font-size: 3vw !important;
+        div.conteudo4{
+            background-image: url(imagens/unnamed\ \(1\).png);
+            background-repeat: no-repeat;
+            background-attachment: local;
+            background-position: center center;
+            background-size: contain;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            margin-top: 50px;
+        }
+        
+        #texto4{
+            width: 80vw;
+            height: 700px;
+            padding: 0rem 0rem 0rem 0rem;
+            margin-top: 30px;
+            margin-left: 0;
+            display: block;
+        }
+    
+            #titulo4{
+                margin-top: 150px;
+                color: white;
+                font-size: 2.1vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
+                
+                #secao4 a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+                #secao4 a:hover{
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: #B14900;
+                    background-color: #473bf0;
+            }
+    
+            #qualidades{
+            color: white;
+            font-size: 2vw;
+            width: 80vw;
+            display: block;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            float: none;
+            margin-top: 80px;
+        }
     }
 
     @media screen and (max-width: 425px){
