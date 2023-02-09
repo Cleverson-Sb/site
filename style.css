@@ -39,6 +39,8 @@ html{
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                padding: 0px !important;
+                margin: 3px;
             }
 
                 a{
@@ -280,10 +282,14 @@ div#secao2{
             font-size: 1em;
         }
 
+        div.secao{
+            min-height: 600px;
+        }
+
         #secao1 div#texto{
             display: inline-block;           
             width: 100vw;
-            margin-top: 60px;
+            margin-top: 10vh;
         }
 
             #secao1 div#titulo{
@@ -292,7 +298,6 @@ div#secao2{
                 justify-content: center;
                 font-size: 2.3vw;
                 color: white;
-                margin-top: 150px;
             }
 
             #secao1 div#conteudo{
@@ -301,6 +306,10 @@ div#secao2{
                 width: 60vw;
                 height: 150px;
             }
+
+        #secao2{
+            max-height: 700px;
+        }
         
         #secao2 #conteudo2{
             background-image: url(imagens/pexels-mikael-blomkvist-8961555.jpg);
@@ -486,8 +495,7 @@ div.conteudo3{
 
 div.secao{            
     width: 100%;
-    min-height: 420px;
-    padding: 0rem 0rem;
+   
 }
 
     #secao1 div#titulo{
@@ -514,25 +522,21 @@ div.secao{
             width: 60vw;
             height: 50px;
         }
+    }
 
-        div#titulo2{
-            color: white;
-            font-size: 4vw;
-            margin-top: 10px;
-            margin-bottom: 10px;
+    @media only screen and (min-width:769px) and (max-width: 1024px){
+        div.conteudo3{
+            background-image: url(imagens/logo-whatsapp-preta-com-nome-1024.png);
+            background-repeat: no-repeat;
+            background-attachment: local;
+            background-position: center center;
+            background-size: contain;
             display: flex;
-            align-items: flex-start;
             justify-content: center;
-        }
-
-        div#subtitulo2{
-            display: flex;
             align-items: center;
-            justify-content: center;
-            font-size: 3vw;
-            text-align: justify;
-            margin-top: 10px;
-            color: white;
+            float: left;
+            width: 50vw;
+            height: 40vh;
+            margin-top: 10vh;
         }
-
     }
