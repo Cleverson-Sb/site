@@ -174,7 +174,7 @@ div#secao2{
 }
     
     div.conteudo3{
-        background-image: url(imagens/logo-whatsapp-preta-com-nome-1024.png);
+        background-image: url(imagens/logo-whatsapp-preta-com-nome-1024\ -\ Editado.png);
         background-repeat: no-repeat;
         background-attachment: local;
         background-position: center center;
@@ -220,15 +220,16 @@ div#secao2{
 }
     
     div.conteudo4{
-        background-image: url(imagens/unnamed\ \(1\).png);
+        background-image: url(imagens/My\ project-1.png);
         background-repeat: no-repeat;
         background-attachment: local;
         background-position: center center;
         background-size: contain;
+        background-color: tomato;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 300px;
+        height: 45vh;
         margin-top: 50px;
     }
     
