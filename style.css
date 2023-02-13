@@ -275,6 +275,14 @@ div#secao2{
 
     @media only screen and (min-width: 320px) and (max-width: 768px){
         
+        #secao{
+            max-height: 600px !important;
+        }
+
+        #secao1{
+            max-height: 500px !important;
+        }
+
         nav{
             font-size: 1em;
         }
@@ -303,11 +311,7 @@ div#secao2{
                 width: 60vw;
                 height: 150px;
             }
-
-        #secao2{
-            max-height: 700px;
-        }
-        
+      
         #secao2 #conteudo2{
             background-image: url(imagens/pexels-mikael-blomkvist-8961555.jpg);
             background-repeat: no-repeat;
@@ -340,7 +344,7 @@ div#secao2{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-size: 2vw;
+                font-size: 3vw;
                 text-align: justify;
                 margin-top: 25px;
                 color: white;
