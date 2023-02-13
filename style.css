@@ -128,7 +128,7 @@ div#secao2{
         div#titulo2{
             color: white;
             font-size: 2.5vw;
-            margin-top: 5vh;
+            margin-top: 10vh;
             margin-bottom: 10px;
             display: flex;
             align-items: flex-start;
@@ -171,7 +171,7 @@ div#secao2{
 
 #secao3{
     background: #B14900;
-    height: 800px;
+     max-height: 800px;
 }
     
     div.conteudo3{
@@ -390,7 +390,7 @@ div.conteudo3{
 
     #titulo3{
         color: white;
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         margin-top: 25px;
         text-align: center;
         display: flex;
@@ -400,7 +400,7 @@ div.conteudo3{
 
     #subtitulo3{
         text-align: justify;
-        font-size: 3.7vw;
+        font-size: 4vw !important;
         margin-top: 25px;
         width: 100%;
         color: white;
@@ -412,6 +412,8 @@ div.conteudo3{
     #secao4 #texto4{
         width: 80vw;
         margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
         #secao4 #titulo4{
