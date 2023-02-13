@@ -121,7 +121,7 @@ div#secao2{
 
     div#texto2{
         display: inline-block;              
-        width: 48vw;
+        width: 45vw;
         margin-left: 2vw;
     }
 
@@ -171,6 +171,7 @@ div#secao2{
 
 #secao3{
     background: #B14900;
+    height: 800px;
 }
     
     div.conteudo3{
@@ -190,13 +191,14 @@ div#secao2{
     
     #texto3{
         display: inline-block;              
-        width: 48vw;
+        width: 45vw;
+        margin: 0px auto 0px auto 0px;
     }
 
         #titulo3{
             color: white;
-            font-size: 2vw;
-            margin-top: 10vh;
+            font-size: 1.7vw;
+            margin-top: 5vh;
             text-align: justify;
             display: flex;
             justify-content: center;
@@ -205,7 +207,7 @@ div#secao2{
 
         #subtitulo3{
             text-align: justify;
-            font-size: 2vw;
+            font-size: 1.8vw;
             margin-top: 25px;
             width: 100%;
             color: white;
@@ -225,7 +227,6 @@ div#secao2{
         background-attachment: local;
         background-position: center center;
         background-size: contain;
-        background-color: tomato;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -243,29 +244,24 @@ div#secao2{
     }
 
         #titulo4{
-            margin-top: 150px;
-            color: white;
+            margin-top: 150px !important;
+            color: #B14900 !important;
             font-size: 2.1vw;
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: 0px auto 0px auto;
         }
             
             #secao4 a{
+                color: #B14900;
                 display: flex;
                 justify-content: center;
                 align-items: center;
             }
 
-            #secao4 a:hover{
-                padding: 15px;
-                border-radius: 10px;
-                color: #B14900;
-                background-color: #473bf0;
-        }
-
         #qualidades{
-        color:#B14900;
+        color: white;
         font-size: 2vw;
         width: 48vw;
         display: flex;
@@ -332,7 +328,7 @@ div#secao2{
     
             div#titulo2{
                 color: white;
-                font-size: 4vw;
+                font-size: 3vw;
                 margin-top: 25px;
                 margin-bottom: 10px;
                 display: flex;
@@ -344,7 +340,7 @@ div#secao2{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-size: 3vw;
+                font-size: 2vw;
                 text-align: justify;
                 margin-top: 25px;
                 color: white;
@@ -446,7 +442,7 @@ div.conteudo3{
     
             #titulo4{
                 margin-top: 150px;
-                color: white;
+                color: #B14900 !important;
                 font-size: 2.1vw;
                 display: flex;
                 justify-content: center;
@@ -457,14 +453,8 @@ div.conteudo3{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                }
-    
-                #secao4 a:hover{
-                    padding: 15px;
-                    border-radius: 10px;
                     color: #B14900;
-                    background-color: #473bf0;
-            }
+                }
     
             #qualidades{
             color: white;
@@ -524,3 +514,16 @@ div.secao{
             height: 50px;
         }
     }
+
+@media screen and (max-width: 1600px) {
+    #subtitulo3{
+        text-align: justify;
+        font-size: 2vw;
+        margin-top: 25px;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
