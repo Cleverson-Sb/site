@@ -280,7 +280,8 @@ div#secao2{
         }
 
         #secao1{
-            max-height: 500px !important;
+            max-height: 450px !important;
+            min-height: 400px !important;
         }
 
         nav{
