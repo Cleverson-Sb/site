@@ -491,7 +491,7 @@ div.conteudo3{
         }
     }
 
-    @media screen and (min-width: 425px){
+    @media screen and (max-width: 425px){
 
         nav{
             font-size: 1em;
@@ -535,12 +535,13 @@ div.secao{
             width: 60vw;
             height: 50px;
         }
-
-        #secao3{
-            margin-top: 40vh;
-        }
-
     }
+
+@media screen and (min-width: 425px){
+    #secao3{
+        margin-top: 40vh;
+    }
+}
 
 @media screen and (max-width: 1600px) {
     #subtitulo3{
