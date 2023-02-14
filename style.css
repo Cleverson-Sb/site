@@ -85,7 +85,7 @@ html{
                         justify-content: center;
                         font-size: 2.3vw;
                         color: white;
-                        margin-top: 10vh;
+                        margin-top: 20vh;
                     }
 
                 div#conteudo{
@@ -99,7 +99,7 @@ html{
                     justify-content: center;
                     float: right;
                     margin-right: 4vw;
-                    margin-top: 30vh;
+                    margin-top: 45vh;
                     width: 40vw;
                     height: 250px;
                 }
@@ -216,63 +216,7 @@ div#secao2{
             align-items: center;
         }
 
-#secao4{
-    background: black;
-    color: white;
-}
-    
-    div.conteudo4{
-        background-image: url(imagens/My\ project-1.png);
-        background-repeat: no-repeat;
-        background-attachment: local;
-        background-position: center center;
-        background-size: contain;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 45vh;
-        margin-top: 50px;
-    }
-    
-    #texto4{
-        width: 45vw;
-        height: 700px;
-        padding: 0rem 0rem 0rem 0rem;
-        margin-top: 30px;
-        margin-left: 0;
-        display: inline-block;
-    }
-
-        #titulo4{
-            margin-top: 150px !important;
-            color: #B14900 !important;
-            font-size: 2.1vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0px auto 0px auto;
-        }
-            
-            #secao4 a{
-                color: #B14900;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-        #qualidades{
-        color: white;
-        font-size: 2vw;
-        width: 48vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        float: right;
-        margin-top: 250px;
-        margin-right: 0;
-    }
-
+        
     @media only screen and (min-width: 320px) and (max-width: 768px){
         
         #secao{
@@ -280,7 +224,7 @@ div#secao2{
         }
 
         #secao1{
-            max-height: 450px !important;
+            max-height: 550px !important;
             min-height: 400px !important;
         }
 
@@ -299,6 +243,7 @@ div#secao2{
         }
 
             #secao1 div#titulo{
+
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -425,70 +370,6 @@ div.conteudo3{
         align-items: center;
     }
 
-    #secao4 #texto4{
-        width: 80vw;
-        margin: auto;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-        #secao4 #titulo4{
-            font-size: 3vw;
-        }
-
-        #secao4 #qualidades{
-            font-size: 3.5vw !important;
-        }
-
-        div.conteudo4{
-            background-image: url(imagens/unnamed\ \(1\).png);
-            background-repeat: no-repeat;
-            background-attachment: local;
-            background-position: center center;
-            background-size: contain;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 300px;
-            margin-top: 50px;
-        }
-        
-        #texto4{
-            width: 80vw;
-            height: 700px;
-            padding: 0rem 0rem 0rem 0rem;
-            margin-top: 30px;
-            margin-left: 0;
-            display: block;
-        }
-    
-            #titulo4{
-                margin-top: 150px;
-                color: #B14900 !important;
-                font-size: 2.1vw;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-                
-                #secao4 a{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    color: #B14900;
-                }
-    
-            #qualidades{
-            color: white;
-            font-size: 2vw;
-            width: 80vw;
-            display: block;
-            margin: auto;
-            justify-content: center;
-            align-items: center;
-            float: none;
-            margin-top: 80px;
-        }
     }
 
     @media screen and (max-width: 425px){
