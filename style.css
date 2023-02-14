@@ -313,6 +313,12 @@ div#secao2{
                 height: 150px;
             }
       
+            #secao2{
+                max-height: 500px !important;
+                min-height: 400px !important;
+            }
+    
+
         #secao2 #conteudo2{
             background-image: url(imagens/pexels-mikael-blomkvist-8961555.jpg);
             background-repeat: no-repeat;
@@ -367,13 +373,22 @@ div#secao2{
                     align-items: center;
                 }
 
+#secao3{
+    margin-top: 20vh;
+}
+
+div.conteiner3{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 div.conteudo3{
     background-image: url(imagens/logo-whatsapp-preta-com-nome-1024.png);
     background-repeat: no-repeat;
     background-attachment: local;
     background-position: center center;
     background-size: contain;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -476,7 +491,7 @@ div.conteudo3{
         }
     }
 
-    @media screen and (max-width: 425px){
+    @media screen and (min-width: 425px){
 
         nav{
             font-size: 1em;
@@ -520,6 +535,11 @@ div.secao{
             width: 60vw;
             height: 50px;
         }
+
+        #secao3{
+            margin-top: 40vh;
+        }
+
     }
 
 @media screen and (max-width: 1600px) {
